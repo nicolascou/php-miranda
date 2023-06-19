@@ -1,0 +1,15 @@
+{
+    "name": "nicol/php-miranda",
+    "autoload": {
+        "psr-4": {
+            "Nicol\\PhpMiranda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nicolascou",
+            "email": "nicolascousillas1@gmail.com"
+        }
+    ],
+    "require": {}
+}
