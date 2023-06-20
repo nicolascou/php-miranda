@@ -2,7 +2,7 @@
   "name": "nicol/php-miranda",
   "autoload": {
     "psr-4": {
-      "Nicol\\PhpMiranda\\": "src/"
+      "App\\": "src/"
     }
   },
   "authors": [
