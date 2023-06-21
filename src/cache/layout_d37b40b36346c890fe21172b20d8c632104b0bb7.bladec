@@ -33,7 +33,7 @@
  </button>
  <div class="header__main">
  <div class="header__main__flex">
- <a href="index.html" class="header__main__anchor">
+ <a href="/" class="header__main__anchor">
  <div class="header__main__h">H</div>
  <div class="header__main__title">
  <p class="header__main__title__hotel">HOTEL</p>
