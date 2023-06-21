@@ -26,11 +26,11 @@
         </div>
       </div>
       <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">{{ $room['name'] }}</h3>
+        <h3 class="rooms-flex__box__card__title">{{ $room['name'] }} - {{ $room['bed_type'] }}</h3>
         <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
         <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
+          <p class="rooms-flex__box__card__price">{{ $room['offer'] }}/Night</p>
+          <a class="rooms-flex__box__card__booking" href="/src/controllers/room_details.php">Book Now</a>
         </div>
       </div>
     </div>
