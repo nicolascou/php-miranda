@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel Miranda</title>
-  <link rel='stylesheet' href='resources/css/styles.css'>
+  <link rel='stylesheet' href='../../resources/css/styles.css'>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-  <!-- <link rel="shortcut icon" href="../resources/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="../resources/img/favicon.ico" type="image/x-icon"> -->
+  <!-- <link rel="shortcut icon" href="../../resources/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../../resources/img/favicon.ico" type="image/x-icon"> -->
 
   <link
     rel="stylesheet"
@@ -26,14 +26,14 @@
   <header class="header">
     <div class="header__mobile-flex">
       <button class="header__hamburger btn-icon" id="hamburgerBtn">
-        <img src="../resources/img/icons/hamburger.svg" alt="hamburger">
+        <img src="../../resources/img/icons/hamburger.svg" alt="hamburger">
       </button> 
       <button class="header__hamburger d-none btn-icon" id="closeMenu">
-        <img src="../resources/img/icons/cross.svg" alt="cross">
+        <img src="../../resources/img/icons/cross.svg" alt="cross">
       </button>
       <div class="header__main">
         <div class="header__main__flex">
-          <a href="index.html" class="header__main__anchor">
+          <a href="/" class="header__main__anchor">
             <div class="header__main__h">H</div>
             <div class="header__main__title">
               <p class="header__main__title__hotel">HOTEL</p>
@@ -44,19 +44,19 @@
       </div>
       <div class="header__btns">
         <button class="header__btns__icon btn-icon">
-          <img src="../resources/img/icons/user.svg" alt="user">           
+          <img src="../../resources/img/icons/user.svg" alt="user">           
         </button>
         <button class="header__btns__icon btn-icon">
-          <img src="../resources/img/icons/magnifying-glass.svg" alt="magnifying-glass">
+          <img src="../../resources/img/icons/magnifying-glass.svg" alt="magnifying-glass">
         </button>
       </div>
     </div>
     <nav class="header__navbar d-none" id="navbar">
       <ul>
-        <li><a class="header__navbar__item" href="html/about.html">About us</a></li>
-        <li><a class="header__navbar__item" href="html/rooms.html">Rooms</a></li>
-        <li><a class="header__navbar__item" href="html/offers.html">Offers</a></li>
-        <li><a class="header__navbar__item" href="html/contact.html">Contact</a></li>
+        <li><a class="header__navbar__item" href="src/controllers/about.php">About us</a></li>
+        <li><a class="header__navbar__item" href="src/controllers/rooms.php">Rooms</a></li>
+        <li><a class="header__navbar__item" href="src/controllers/offers.php">Offers</a></li>
+        <li><a class="header__navbar__item" href="src/controllers/contact.php">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -79,19 +79,19 @@
         
         <div class="footer__icon-bar">
           <a class="footer__icon-bar__icon" href="">
-            <img src="../resources/img/icons/facebook.svg" alt="">
+            <img src="../../resources/img/icons/facebook.svg" alt="">
           </a>
           <a class="footer__icon-bar__icon" href="">
-            <img src="../resources/img/icons/twitter.svg" alt="">
+            <img src="../../resources/img/icons/twitter.svg" alt="">
           </a>
           <a class="footer__icon-bar__icon" href="">
-            <img src="../resources/img/icons/behance.svg" alt="">
+            <img src="../../resources/img/icons/behance.svg" alt="">
           </a>
           <a class="footer__icon-bar__icon" href="">
-            <img src="../resources/img/icons/linkedin.svg" alt="">
+            <img src="../../resources/img/icons/linkedin.svg" alt="">
           </a>
           <a class="footer__icon-bar__icon" href="">
-            <img src="../resources/img/icons/youtube.svg" alt="">
+            <img src="../../resources/img/icons/youtube.svg" alt="">
           </a>
         </div>
       </div>
@@ -135,21 +135,21 @@
       <div class="footer__contact">
         <h4 class="footer__contact__title">Contact Us.</h4>
         <div class="footer__contact__box">
-          <img src="../resources/img/icons/phone.svg" alt="">
+          <img src="../../resources/img/icons/phone.svg" alt="">
           <div class="footer__contact__box__content">
             <h5 class="footer__contact__box__content__title">Phone Number</h5>
             <p class="footer__contact__box__content__number">+987 876 765 76 577</p>
           </div>
         </div>
         <div class="footer__contact__box">
-          <img src="../resources/img/icons/mail.svg" alt="">
+          <img src="../../resources/img/icons/mail.svg" alt="">
           <div class="footer__contact__box__content">
             <h5 class="footer__contact__box__content__title">Phone Number</h5>
             <p class="footer__contact__box__content__number">+987 876 765 76 577</p>
           </div>
         </div>
         <div class="footer__contact__box">
-          <img src="../resources/img/icons/location-2.svg" alt="">
+          <img src="../../resources/img/icons/location-2.svg" alt="">
           <div class="footer__contact__box__content">
             <h5 class="footer__contact__box__content__title">Phone Number</h5>
             <p class="footer__contact__box__content__number">+987 876 765 76 577</p>
@@ -165,8 +165,8 @@
     </div>
   </div>
 
-  <script src="../resources/js/script.js"></script>
-  <script src="../resources/js/swiper.js" type="module"></script>
+  <script src="../../resources/js/script.js"></script>
+  <script src="../../resources/js/swiper.js" type="module"></script>
   @yield('scripts')
 </body>
 </html>

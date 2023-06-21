@@ -13,7 +13,7 @@
   <section class="contact">
     <div class="contact__flex">
       <div class="contact__flex__box">
-        <img class="contact__flex__box__icon" src="../resources/img/icons/mail.svg" alt="">
+        <img class="contact__flex__box__icon" src="../../resources/img/icons/mail.svg" alt="">
         <div class="contact__flex__box__content">
           <h4 class="contact__flex__box__content__title">Hotel Address</h4>
           <p class="contact__flex__box__content__address">19/A, Cirikon City hall Tower New York, NYC</p>
@@ -21,7 +21,7 @@
         <p class="contact__flex__box__number">01</p>
       </div>
       <div class="contact__flex__box">
-        <img class="contact__flex__box__icon" src="../resources/img/icons/phone.svg" alt="">
+        <img class="contact__flex__box__icon" src="../../resources/img/icons/phone.svg" alt="">
         <div class="contact__flex__box__content">
           <h4 class="contact__flex__box__content__title">Phone Number</h4>
           <p class="contact__flex__box__content__address">+ 97656 8675 7864 7</p>
@@ -30,7 +30,7 @@
         <p class="contact__flex__box__number">02</p>
       </div>
       <div class="contact__flex__box">
-        <img class="contact__flex__box__icon" src="../resources/img/icons/location-2.svg" alt="">
+        <img class="contact__flex__box__icon" src="../../resources/img/icons/location-2.svg" alt="">
         <div class="contact__flex__box__content">
           <h4 class="contact__flex__box__content__title">Email</h4>
           <p class="contact__flex__box__content__address">info@webmail.com</p>
@@ -46,26 +46,26 @@
     <form class="contact__form">
       <div class="contact__form__row">
         <div class="contact__form__input">
-          <img src="../resources/img/icons/user.svg" alt="" width="16" height="16" style="filter: invert(0.45) sepia(1);">
+          <img src="../../resources/img/icons/user.svg" alt="" width="16" height="16" style="filter: invert(0.45) sepia(1);">
           <input type="text" placeholder="Your full name">
         </div>
         <div class="contact__form__input">
-          <img src="../resources/img/icons/phone-2.svg" alt="" width="16" height="16">
+          <img src="../../resources/img/icons/phone-2.svg" alt="" width="16" height="16">
           <input type="tel" placeholder="Add phone number">
         </div>
       </div>
       <div class="contact__form__row">
         <div class="contact__form__input">
-          <img src="../resources/img/icons/email.svg" alt="" width="16" height="16">
+          <img src="../../resources/img/icons/email.svg" alt="" width="16" height="16">
           <input type="email" placeholder="Enter email address">
         </div>
         <div class="contact__form__input">
-          <img src="../resources/img/icons/notebook.svg" alt="" width="16" height="16">
+          <img src="../../resources/img/icons/notebook.svg" alt="" width="16" height="16">
           <input type="text" placeholder="Enter subject">
         </div>
       </div>
       <div class="contact__form__input">
-        <img src="../resources/img/icons/pen.svg" alt="" width="16" height="16">
+        <img src="../../resources/img/icons/pen.svg" alt="" width="16" height="16">
         <textarea type="text" placeholder="Enter message" rows="8"></textarea>
       </div>
 

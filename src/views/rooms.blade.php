@@ -13,15 +13,15 @@
   <section class="rooms-flex">
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -35,15 +35,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -57,15 +57,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -79,15 +79,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -101,15 +101,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -123,15 +123,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -145,15 +145,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -167,15 +167,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -189,15 +189,15 @@
     </div>
     <div class="rooms-flex__box">
       <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../resources/img/rooms-1.jpg" alt="Hotel room">
+        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
         <div class="rooms-flex__box__rect">
-          <img src="../resources/img/icons/bed.svg" alt="">
-          <img src="../resources/img/icons/wifi.svg" alt="">
-          <img src="../resources/img/icons/car.svg" alt="">
-          <img src="../resources/img/icons/winter.svg" alt="">
-          <img src="../resources/img/icons/gym.svg" alt="">
-          <img src="../resources/img/icons/smoke.svg" alt="">
-          <img src="../resources/img/icons/cocktail.svg" alt="">
+          <img src="../../resources/img/icons/bed.svg" alt="">
+          <img src="../../resources/img/icons/wifi.svg" alt="">
+          <img src="../../resources/img/icons/car.svg" alt="">
+          <img src="../../resources/img/icons/winter.svg" alt="">
+          <img src="../../resources/img/icons/gym.svg" alt="">
+          <img src="../../resources/img/icons/smoke.svg" alt="">
+          <img src="../../resources/img/icons/cocktail.svg" alt="">
         </div>
       </div>
       <div class="rooms-flex__box__card">
@@ -212,7 +212,7 @@
   </section>
   <div class="rooms-flex__pagination">
     <a class="rooms-flex__pagination__btn" href="">
-      <img src="../resources/img/icons/darrow-left.svg" alt="">
+      <img src="../../resources/img/icons/darrow-left.svg" alt="">
     </a>
     <a class="rooms-flex__pagination__btn rooms-flex__pagination__btn--active" href="">1</a>
     <a class="rooms-flex__pagination__btn" href="">2</a>
@@ -220,7 +220,7 @@
     <p class="rooms-flex__pagination__btn" href="">...</p>
     <a class="rooms-flex__pagination__btn" href="">10</a>
     <a class="rooms-flex__pagination__btn" href="">
-      <img src="../resources/img/icons/darrow-right.svg" alt="">
+      <img src="../../resources/img/icons/darrow-right.svg" alt="">
     </a>
   </div>
 @endsection
