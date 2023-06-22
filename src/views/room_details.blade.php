@@ -14,10 +14,10 @@
     <div class="offer__left-col">
       <div class="offer__head">
         <div>
-          <p class="offer__intro">DOUBLE BED</p>
-          <h2 class="offer__title">Luxury Double Bed</h2>
+          <p class="offer__intro">{{ $room['bed_type'] }}</p>
+          <h2 class="offer__title">{{ $room['name'] }}</h2>
         </div>
-        <p class="rooms__offer__price">$345<span class="rooms__offer__price__small-txt">/Night</span></p>
+        <p class="rooms__offer__price">${{ $room['rate'] }}<span class="rooms__offer__price__small-txt">/Night</span></p>
       </div>
       <img class="offer__img" src="../../resources/img/rooms-1.jpg" alt="Luxury room">
       <form class="offer__form">
