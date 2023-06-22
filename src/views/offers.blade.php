@@ -11,24 +11,25 @@
   </div>
 
   <section class="offers-flex">
+    @foreach ($rooms as $room)
     <div class="offers-flex__box">
       <div class="offers-flex__box__img-wrapper">
         <img class="offers-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Luxury room">
         <div class="offers-flex__box__prices">
-          <p class="offers-flex__box__price offers-flex__box__price--old"><span style="text-decoration: line-through;">$500</span><span class="offers-flex__box__price__small">/Night</span></p>
-          <p class="offers-flex__box__price offers-flex__box__price--new">$345<span class="offers-flex__box__price__small">/Night</span></p>
+          <p class="offers-flex__box__price offers-flex__box__price--old"><span style="text-decoration: line-through;">${{ $room['rate'] }}</span><span class="offers-flex__box__price__small">/Night</span></p>
+          <p class="offers-flex__box__price offers-flex__box__price--new">${{ $room['offer'] }}<span class="offers-flex__box__price__small">/Night</span></p>
         </div>
       </div>
       <div class="offers-flex__box__card">
         <div class="offers-flex__box__first-row">
           <div>
-            <p class="offer__intro">DOUBLE BED</p>
-            <h2 class="offer__title">Luxury Double Bed</h2>
+            <p class="offer__intro">{{ $room['bed_type'] }}</p>
+            <h2 class="offer__title">{{ $room['name'] }}</h2>
           </div>
         </div>
         <div class="offers-flex__box__second-row">
           <div class="offers-flex__box__second-row__first-col">
-            <p class="default-txt offers-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="default-txt offers-flex__text">{{ $room['description'] }}</p>
           </div>
           <div class="amenities__flex">
             <div class="amenities__flex__box">
@@ -76,136 +77,7 @@
         <button class="offers-flex__box__btn btn btn--yellow">BOOK NOW</button>
       </div>
     </div>
-    <div class="offers-flex__box">
-      <div class="offers-flex__box__img-wrapper">
-        <img class="offers-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Luxury room">
-        <div class="offers-flex__box__prices">
-          <p class="offers-flex__box__price offers-flex__box__price--old"><span style="text-decoration: line-through;">$500</span><span class="offers-flex__box__price__small">/Night</span></p>
-          <p class="offers-flex__box__price offers-flex__box__price--new">$345<span class="offers-flex__box__price__small">/Night</span></p>
-        </div>
-      </div>
-      <div class="offers-flex__box__card">
-        <div class="offers-flex__box__first-row">
-          <div>
-            <p class="offer__intro">DOUBLE BED</p>
-            <h2 class="offer__title">Luxury Double Bed</h2>
-          </div>
-        </div>
-        <div class="offers-flex__box__second-row">
-          <div class="offers-flex__box__second-row__first-col">
-            <p class="default-txt offers-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-          <div class="amenities__flex">
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/air-conditioner.svg" alt="">
-              <p class="amenities__text">Air conditioner</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/wifi.svg" style="filter: invert(0.45) sepia(1);" alt="">
-              <p class="amenities__text">High speed WiFi</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/breakfast.svg" alt="">
-              <p class="amenities__text">Breakfast</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/kitchen.svg" alt="">
-              <p class="amenities__text">Kitchen</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/cleaning.svg" alt="">
-              <p class="amenities__text">Cleaning</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/shower.svg" alt="">
-              <p class="amenities__text">Shower</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/grocery.svg" alt="">
-              <p class="amenities__text">Grocery</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/single-bed.svg" alt="">
-              <p class="amenities__text">Single bed</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/shop.svg" alt="">
-              <p class="amenities__text">Shop near</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/towels.svg" alt="">
-              <p class="amenities__text">Towels</p>
-            </div>
-          </div>
-        </div>
-        <button class="offers-flex__box__btn btn btn--yellow">BOOK NOW</button>
-      </div>
-    </div>
-    <div class="offers-flex__box">
-      <div class="offers-flex__box__img-wrapper">
-        <img class="offers-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Luxury room">
-        <div class="offers-flex__box__prices">
-          <p class="offers-flex__box__price offers-flex__box__price--old"><span style="text-decoration: line-through;">$500</span><span class="offers-flex__box__price__small">/Night</span></p>
-          <p class="offers-flex__box__price offers-flex__box__price--new">$345<span class="offers-flex__box__price__small">/Night</span></p>
-        </div>
-      </div>
-      <div class="offers-flex__box__card">
-        <div class="offers-flex__box__first-row">
-          <div>
-            <p class="offer__intro">DOUBLE BED</p>
-            <h2 class="offer__title">Luxury Double Bed</h2>
-          </div>
-        </div>
-        <div class="offers-flex__box__second-row">
-          <div class="offers-flex__box__second-row__first-col">
-            <p class="default-txt offers-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-          <div class="amenities__flex">
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/air-conditioner.svg" alt="">
-              <p class="amenities__text">Air conditioner</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/wifi.svg" style="filter: invert(0.45) sepia(1);" alt="">
-              <p class="amenities__text">High speed WiFi</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/breakfast.svg" alt="">
-              <p class="amenities__text">Breakfast</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/kitchen.svg" alt="">
-              <p class="amenities__text">Kitchen</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/cleaning.svg" alt="">
-              <p class="amenities__text">Cleaning</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/shower.svg" alt="">
-              <p class="amenities__text">Shower</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/grocery.svg" alt="">
-              <p class="amenities__text">Grocery</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/single-bed.svg" alt="">
-              <p class="amenities__text">Single bed</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/shop.svg" alt="">
-              <p class="amenities__text">Shop near</p>
-            </div>
-            <div class="amenities__flex__box">
-              <img src="../../resources/img/icons/towels.svg" alt="">
-              <p class="amenities__text">Towels</p>
-            </div>
-          </div>
-        </div>
-        <button class="offers-flex__box__btn btn btn--yellow">BOOK NOW</button>
-      </div>
-    </div>
+    @endforeach
   </section>
 
   <div class="popular-rooms-wrapper">
