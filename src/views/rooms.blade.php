@@ -11,6 +11,7 @@
   </div>
 
   <section class="rooms-flex">
+    @foreach ($rooms as $room)
     <div class="rooms-flex__box">
       <div style="position: relative;">
         <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
@@ -25,190 +26,15 @@
         </div>
       </div>
       <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
+        <h3 class="rooms-flex__box__card__title">{{ $room['name'] }} - {{ $room['bed_type'] }}</h3>
         <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
         <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
+          <p class="rooms-flex__box__card__price">{{ $room['offer'] }}/Night</p>
+          <a class="rooms-flex__box__card__booking" href="/src/controllers/room_details.php?id={{ $room['id'] }}">Book Now</a>
         </div>
       </div>
     </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
-    <div class="rooms-flex__box">
-      <div style="position: relative;">
-        <img class="rooms-flex__box__img" src="../../resources/img/rooms-1.jpg" alt="Hotel room">
-        <div class="rooms-flex__box__rect">
-          <img src="../../resources/img/icons/bed.svg" alt="">
-          <img src="../../resources/img/icons/wifi.svg" alt="">
-          <img src="../../resources/img/icons/car.svg" alt="">
-          <img src="../../resources/img/icons/winter.svg" alt="">
-          <img src="../../resources/img/icons/gym.svg" alt="">
-          <img src="../../resources/img/icons/smoke.svg" alt="">
-          <img src="../../resources/img/icons/cocktail.svg" alt="">
-        </div>
-      </div>
-      <div class="rooms-flex__box__card">
-        <h3 class="rooms-flex__box__card__title">Luxury Double Room</h3>
-        <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-        <div class="rooms-flex__box__card__bottom-flex">
-          <p class="rooms-flex__box__card__price">$345/Night</p>
-          <a class="rooms-flex__box__card__booking" href="room_details.html">Book Now</a>
-        </div>
-      </div>
-    </div>
+    @endforeach
   </section>
   <div class="rooms-flex__pagination">
     <a class="rooms-flex__pagination__btn" href="">

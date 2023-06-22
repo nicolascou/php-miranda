@@ -33,7 +33,7 @@
       </button>
       <div class="header__main">
         <div class="header__main__flex">
-          <a href="/" class="header__main__anchor">
+          <a href="/src/controllers/index.php" class="header__main__anchor">
             <div class="header__main__h">H</div>
             <div class="header__main__title">
               <p class="header__main__title__hotel">HOTEL</p>
@@ -53,10 +53,10 @@
     </div>
     <nav class="header__navbar d-none" id="navbar">
       <ul>
-        <li><a class="header__navbar__item" href="src/controllers/about.php">About us</a></li>
-        <li><a class="header__navbar__item" href="src/controllers/rooms.php">Rooms</a></li>
-        <li><a class="header__navbar__item" href="src/controllers/offers.php">Offers</a></li>
-        <li><a class="header__navbar__item" href="src/controllers/contact.php">Contact</a></li>
+        <li><a class="header__navbar__item" href="/src/controllers/about.php">About us</a></li>
+        <li><a class="header__navbar__item" href="/src/controllers/rooms.php">Rooms</a></li>
+        <li><a class="header__navbar__item" href="/src/controllers/offers.php">Offers</a></li>
+        <li><a class="header__navbar__item" href="/src/controllers/contact.php">Contact</a></li>
       </ul>
     </nav>
   </header>
