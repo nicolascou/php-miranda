@@ -45,7 +45,7 @@ function changeView(e) {
     document.body.insertAdjacentElement('afterbegin', headerWrapper);
 
     // Home
-    if (window.location.pathname.split('/').pop() === 'index.html' || window.location.pathname.split('/').pop() === '') {
+    if (document.querySelector('.hero__title').textContent === 'The Perfect Base For You') {
       const aboutus = document.querySelector('.aboutus');
       const aboutusFirstCol = document.querySelector('.aboutus__first-col__first-col');
       const aboutusSecondCol = document.querySelector('.aboutus__first-col__second-col');
@@ -57,10 +57,10 @@ function changeView(e) {
 
       const aboutusImg1 = document.createElement('img');
       aboutusImg1.classList.add('aboutus__desktop-img', 'only-desktop');
-      aboutusImg1.src = 'resources/img/unsplash-1.jpg';
+      aboutusImg1.src = '../../resources/img/unsplash-1.jpg';
       const aboutusImg2 = document.createElement('img');
       aboutusImg2.classList.add('aboutus__desktop-img', 'only-desktop');
-      aboutusImg2.src = 'resources/img/luxury-room.jpg';
+      aboutusImg2.src = '../../resources/img/luxury-room.jpg';
 
       aboutusFirstCol.appendChild(aboutusImg1);
       aboutusSecondCol.insertAdjacentElement('afterbegin', aboutusImg2);
@@ -97,11 +97,11 @@ function changeView(e) {
       const clonedOption1 = option.cloneNode(true);
       const clonedOption2 = option.cloneNode(true);
       const clonedOption3 = option.cloneNode(true);
-      clonedOption1.children[0].src = 'resources/img/fruit.jpg';
+      clonedOption1.children[0].src = '../../resources/img/fruit.jpg';
       clonedOption1.children[1].children[0].innerHTML = 'Fruit Parfait';
-      clonedOption2.children[0].src = 'resources/img/marmalade.jpg';
+      clonedOption2.children[0].src = '../../resources/img/marmalade.jpg';
       clonedOption2.children[1].children[0].innerHTML = 'Marmalade Selection';
-      clonedOption3.children[0].src = 'resources/img/cheese.jpg';
+      clonedOption3.children[0].src = '../../resources/img/cheese.jpg';
       clonedOption3.children[1].children[0].innerHTML = 'Cheese Plate';
       secondCol.appendChild(clonedOption1);
       secondCol.appendChild(clonedOption2);
@@ -114,9 +114,9 @@ function changeView(e) {
       const menuImg1 = document.createElement('img');
       const menuImg2 = document.createElement('img');
       const menuImg3 = document.createElement('img');
-      menuImg1.src = 'resources/img/menu-1.jpg';
-      menuImg2.src = 'resources/img/menu-2.jpg';
-      menuImg3.src = 'resources/img/menu-3.jpg';
+      menuImg1.src = '../../resources/img/menu-1.jpg';
+      menuImg2.src = '../../resources/img/menu-2.jpg';
+      menuImg3.src = '../../resources/img/menu-3.jpg';
       menuBottomDesktop.appendChild(menuImg1);
       menuBottomDesktop.appendChild(menuImg2);
       menuBottomDesktop.appendChild(menuImg3);
@@ -124,14 +124,14 @@ function changeView(e) {
     }
 
     // About Us
-    if (window.location.pathname.split('/').pop() === 'about.html') {
+    if (document.querySelector('.hero__title').textContent === 'About Us') {
       document.querySelector('.counter__bottom-slider').classList.add('d-none-desktop');
       const counterBottomDesktop = document.createElement('div');
       counterBottomDesktop.classList.add('counter__bottom-desktop', 'only-desktop');
       const counterImg1 = document.createElement('img');
       const counterImg2 = document.createElement('img');
-      counterImg1.src = '../resources/img/counter-1.jpg';
-      counterImg2.src = '../resources/img/counter-2.jpg';
+      counterImg1.src = '../../resources/img/counter-1.jpg';
+      counterImg2.src = '../../resources/img/counter-2.jpg';
       counterBottomDesktop.appendChild(counterImg1);
       counterBottomDesktop.appendChild(counterImg2);
       document.querySelector('.counter').appendChild(counterBottomDesktop);
@@ -149,7 +149,7 @@ function changeView(e) {
     }
 
     // Offers page
-    if (window.location.pathname.split('/').pop() === 'offers.html') {
+    if (document.querySelector('.hero__title').textContent === 'Our Offers') {
       const offerPrices = document.querySelectorAll('.offers-flex__box__prices');
       const offerNewParents = document.querySelectorAll('.offers-flex__box__first-row');
 
@@ -181,7 +181,7 @@ function changeView(e) {
     }
 
     // Room details
-    if (window.location.pathname.split('/').pop() === 'room_details.html') {
+    if (document.querySelector('.hero__title').textContent === 'Ultimate Room') {
       const offer = document.querySelector('.offer');
       const offerForm = document.querySelector('.offer__form');
       const cloneOfferForm = offerForm.cloneNode(true);
