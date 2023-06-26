@@ -3,25 +3,25 @@ const hamburgerBtn = document.getElementById('hamburgerBtn');
 const closeMenu = document.getElementById('closeMenu');
 const navbar = document.getElementById('navbar');
 
-hamburgerBtn.addEventListener('click', function() {
+hamburgerBtn.addEventListener('click', function () {
   navbar.classList.remove('d-none');
   closeMenu.classList.remove('d-none');
   hamburgerBtn.classList.add('d-none');
-})
+});
 
-closeMenu.addEventListener('click', function() {
+closeMenu.addEventListener('click', function () {
   navbar.classList.add('d-none');
   closeMenu.classList.add('d-none');
   hamburgerBtn.classList.remove('d-none');
-})
+});
 
 // Handle Desktop design
 const media = matchMedia('(min-width: 1000px)');
 media.addEventListener('change', changeView);
 
 function changeView(e) {
-  if (media.matches) { // Desktop styles
-    
+  if (media.matches) {
+    // Desktop styles
     // Header
     const headerWrapper = document.createElement('div');
     headerWrapper.classList.add('header-wrapper', 'only-desktop');
@@ -32,21 +32,20 @@ function changeView(e) {
 
     const headerDesktop = document.createElement('header');
     headerDesktop.classList.add('header-wrapper__header-desktop');
-    
+
     const navbarDesktop = document.querySelector('.header__navbar').cloneNode(true);
     navbarDesktop.classList.remove('d-none');
 
     headerDesktop.appendChild(document.querySelector('.header__main').cloneNode(true));
     headerDesktop.appendChild(navbarDesktop);
     headerDesktop.appendChild(document.querySelector('.header__btns').cloneNode(true));
-    
+
     headerWrapper.appendChild(headerWrapperText);
     headerWrapper.appendChild(headerDesktop);
     document.body.insertAdjacentElement('afterbegin', headerWrapper);
 
     // Home
     if (window.location.pathname.split('/').pop() === 'index.html' || window.location.pathname.split('/').pop() === '') {
-
       const aboutus = document.querySelector('.aboutus');
       const aboutusFirstCol = document.querySelector('.aboutus__first-col__first-col');
       const aboutusSecondCol = document.querySelector('.aboutus__first-col__second-col');
@@ -62,7 +61,7 @@ function changeView(e) {
       const aboutusImg2 = document.createElement('img');
       aboutusImg2.classList.add('aboutus__desktop-img', 'only-desktop');
       aboutusImg2.src = 'resources/img/luxury-room.jpg';
-      
+
       aboutusFirstCol.appendChild(aboutusImg1);
       aboutusSecondCol.insertAdjacentElement('afterbegin', aboutusImg2);
 
@@ -81,7 +80,7 @@ function changeView(e) {
         const clone = e.cloneNode(true);
         clone.classList.remove('swiper-slide');
         facilitiesFlex.appendChild(clone);
-      })
+      });
       facilities.appendChild(facilitiesFlex);
 
       const menuButtons = document.querySelector('.menu-section__menu__pagination');
@@ -145,7 +144,7 @@ function changeView(e) {
         const clone = e.cloneNode(true);
         clone.classList.remove('swiper-slide');
         facilitiesFlex.appendChild(clone);
-      })
+      });
       facilities.appendChild(facilitiesFlex);
     }
 
@@ -153,7 +152,7 @@ function changeView(e) {
     if (window.location.pathname.split('/').pop() === 'offers.html') {
       const offerPrices = document.querySelectorAll('.offers-flex__box__prices');
       const offerNewParents = document.querySelectorAll('.offers-flex__box__first-row');
-      
+
       const buttonsOffer = document.querySelectorAll('.offers-flex__box__btn');
       const secondRowFirstCols = document.querySelectorAll('.offers-flex__box__second-row__first-col');
 
@@ -177,7 +176,7 @@ function changeView(e) {
         const clone = e.cloneNode(true);
         clone.classList.remove('swiper-slide');
         popularRoomsFlex.appendChild(clone);
-      })
+      });
       popularRooms.appendChild(popularRoomsFlex);
     }
 
@@ -189,7 +188,7 @@ function changeView(e) {
       offerForm.classList.add('d-none-desktop');
       cloneOfferForm.classList.add('offer__right-col', 'only-desktop');
       offer.appendChild(cloneOfferForm);
-      
+
       const relatedRooms = document.querySelector('.related-rooms');
       const relatedRoomsFlex = document.createElement('div');
       relatedRoomsFlex.classList.add('related-rooms__flex', 'only-desktop');
@@ -198,10 +197,9 @@ function changeView(e) {
         const clone = e.cloneNode(true);
         clone.classList.remove('swiper-slide');
         relatedRoomsFlex.appendChild(clone);
-      })
+      });
       relatedRooms.appendChild(relatedRoomsFlex);
     }
-
   } else {
     if (!e) return;
     const removeItems = document.querySelectorAll('.only-desktop');

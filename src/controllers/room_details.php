@@ -9,14 +9,14 @@ $id = htmlentities($_GET['id']);
 if (!$id) {
     http_response_code(404);
     include('404.php');
-    die();
+    exit();
 }
 $db = new Database;
 $room = $db->query('SELECT * FROM rooms WHERE id = ' . $id);
 if (!$room) {
     http_response_code(404);
     include('404.php');
-    die();
+    exit();
 }
 
 $views = '../views';

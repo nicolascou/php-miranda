@@ -20,14 +20,12 @@ class Database {
         $mysqli = new mysqli($this->host, $this->user, $this->password, $this->name);
         if ($mysqli->connect_errno) {
             echo "Failed to connect to MySQL: " . $mysqli->connect_errno;
-            exit();
         }
 
         $result = $mysqli->execute_query($q, $values);
         if (!$result) {
             echo "Query execution failed: " . $mysqli->error;
             $mysqli->close();
-            exit();
         }
         if (!empty($values)) {
             $mysqli->close();
