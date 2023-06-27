@@ -19,6 +19,18 @@ if (!$room) {
     exit();
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $guest_id = '#' . mt_rand(10000000,99999999);
+    $db->query('INSERT INTO bookings 
+    (room_id, guest, guest_id, photo, order_date, check_in, check_out, room_type, special_request) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', 
+    [$id, $_POST['name'], $guest_id, '', date('Y-m-d'), $_POST['check_in'], $_POST['check_out'], 'Special Room', $_POST['special_request']]);
+    echo "¡Thank you for your request! \n
+        We have received it correctly. Someone from our Team will get back to you very soon. \n
+        The Miranda Hotel";
+    return;
+}
+
 $views = '../views';
 $cache = '../cache';
 $blade = new BladeOne($views,$cache,BladeOne::MODE_DEBUG);

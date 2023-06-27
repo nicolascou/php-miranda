@@ -22,14 +22,14 @@
           <label for="arrival" class="calendar__form__label">Arrival Date</label>
           <div class="calendar__form__input">
             <img src="../../resources/img/icons/calendar.svg" width="17" height="17" alt="calendar">
-            <input type="date" name="check_in" id="arrival">
+            <input type="date" name="check_in" id="arrival" required>
           </div>
         </div>
         <div class="calendar__form__input-box">
           <label for="ledeparture" class="calendar__form__label">LeDeparture Date</label>
           <div class="calendar__form__input">
             <img src="../../resources/img/icons/calendar.svg" width="17" height="17" alt="calendar">
-            <input type="date" name="check_out" id="ledeparture">
+            <input type="date" name="check_out" id="ledeparture" required>
           </div>
         </div>
       </div>
