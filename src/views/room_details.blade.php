@@ -5,8 +5,8 @@
     <p class="hero__subtitle hero__subtitle--subdomain">THE ULTIMATE LUXURY</p>
     <h2 class="hero__title">Ultimate Room</h2>
     <div class="hero__page">
-      <a class="hero__page__link" href="../index.html">Home</a> |
-      <a class="hero__page__link hero__page__link-active" href="rooms.html">Room Details</a>
+      <a class="hero__page__link" href="/src/controllers/index.php">Home</a> |
+      <a class="hero__page__link hero__page__link-active" href="/src/controllers/room_details.php">Room Details</a>
     </div>
   </div>
 
@@ -20,17 +20,27 @@
         <p class="rooms__offer__price">${{ $room['rate'] }}<span class="rooms__offer__price__small-txt">/Night</span></p>
       </div>
       <img class="offer__img" src="../../resources/img/rooms-1.jpg" alt="Luxury room">
-      <form class="offer__form">
+      <form class="offer__form" method="post">
         <h5 class="offer__form__title">Check Availability</h5>
         <label class="offer__form__label" for="checkin">Check In</label>
         <div class="offer__form__input">
-          <input type="text" id="checkin" placeholder="Fri, 14th June 2020">
+          <input type="date" id="checkin" name="check_in">
           <img src="../../resources/img/icons/calendar.svg" alt="" style="filter: invert(.7);">
         </div>
         <label class="offer__form__label" for="checkout">Check Out</label>
         <div class="offer__form__input">
-          <input type="text" id="checkout" placeholder="Sun, 16th June 2020">
+          <input type="date" id="checkout" name="check_out">
           <img src="../../resources/img/icons/calendar.svg" alt="" style="filter: invert(.7);">
+        </div>
+        <label class="offer__form__label" for="name">Full Name</label>
+        <div class="offer__form__input">
+          <input type="text" id="name" name="name" placeholder="Your Name">
+          <img src="../../resources/img/icons/user.svg" alt="" style="filter: invert(.4);" required>
+        </div>
+        <label class="offer__form__label" for="special_request">Special Request</label>
+        <div class="offer__form__input">
+          <input name="special_request" id="special_request" placeholder="Message">
+          <img src="../../resources/img/icons/lock.svg" alt="" style="filter: invert(.7);">
         </div>
         <button type="submit" class="offer__form__btn btn btn--yellow">CHECK AVAILABILITY</button>
       </form>

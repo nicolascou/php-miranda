@@ -3,10 +3,10 @@
 @section('content')
   <div class="hero">
     <p class="hero__subtitle hero__subtitle--subdomain">THE ULTIMATE LUXURY</p>
-    <h2 class="hero__title">Ultimate Room</h2>
+    <h2 class="hero__title">Ultimate Rooms</h2>
     <div class="hero__page">
-      <a class="hero__page__link" href="../index.html">Home</a> |
-      <a class="hero__page__link hero__page__link-active" href="rooms.html">Rooms</a>
+      <a class="hero__page__link" href="/src/controllers/index.php">Home</a> |
+      <a class="hero__page__link hero__page__link-active" href="./src/controllers/rooms.php">Rooms</a>
     </div>
   </div>
 

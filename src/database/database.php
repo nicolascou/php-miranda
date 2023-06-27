@@ -16,22 +16,22 @@ class Database {
         $this->password = $DB_PASSWORD;
     }
 
-    function query(string $q) {
+    function query(string $q, array $values = []) {
         $mysqli = new mysqli($this->host, $this->user, $this->password, $this->name);
         if ($mysqli->connect_errno) {
             echo "Failed to connect to MySQL: " . $mysqli->connect_errno;
-            exit();
         }
-        
-        $result = $mysqli->query($q);
+
+        $result = $mysqli->execute_query($q, $values);
         if (!$result) {
             echo "Query execution failed: " . $mysqli->error;
             $mysqli->close();
-            exit();
         }
-        
+        if (!empty($values)) {
+            $mysqli->close();
+            return $result;
+        }
         $rows = $result->fetch_all(MYSQLI_ASSOC);
-        
         $result->free_result();
         $mysqli->close();
         return $rows;

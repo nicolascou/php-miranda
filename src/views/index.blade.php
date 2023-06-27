@@ -16,20 +16,20 @@
   </div>
 
   <div class="calendar">
-    <form class="calendar__form">
+    <form class="calendar__form" method="post">
       <div class="calendar__form__flex-desktop">
         <div class="calendar__form__input-box">
           <label for="arrival" class="calendar__form__label">Arrival Date</label>
           <div class="calendar__form__input">
             <img src="../../resources/img/icons/calendar.svg" width="17" height="17" alt="calendar">
-            <input type="text" id="arrival" placeholder="24th March 2020">
+            <input type="date" name="check_in" id="arrival" required>
           </div>
         </div>
         <div class="calendar__form__input-box">
           <label for="ledeparture" class="calendar__form__label">LeDeparture Date</label>
           <div class="calendar__form__input">
             <img src="../../resources/img/icons/calendar.svg" width="17" height="17" alt="calendar">
-            <input type="text" id="ledeparture" placeholder="30th March 2020">
+            <input type="date" name="check_out" id="ledeparture" required>
           </div>
         </div>
       </div>
