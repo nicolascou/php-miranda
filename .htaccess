@@ -1,0 +1,10 @@
+DirectoryIndex ./src/controllers/index.php index.php
+
+RewriteEngine On
+RewriteRule ^about$ /src/controllers/about.php [L]
+RewriteRule ^contact$ /src/controllers/contact.php [L]
+RewriteRule ^offers$ /src/controllers/offers.php [L]
+RewriteRule ^rooms$ /src/controllers/rooms.php [L]
+RewriteRule ^roomDetails/(\d+)$ /src/controllers/roomDetails.php?id=$1 [L]
+RewriteRule ^home$ src/controllers/index.php [L]
+# RewriteRule ^controllers$ ^controllers$ [L]
