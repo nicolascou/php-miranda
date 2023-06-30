@@ -5,8 +5,8 @@
     <p class="hero__subtitle hero__subtitle--subdomain">THE ULTIMATE LUXURY</p>
     <h2 class="hero__title">New Details</h2>
     <div class="hero__page">
-      <a class="hero__page__link" href="/src/controllers/index.php">Home</a> |
-      <a class="hero__page__link hero__page__link-active" href="/src/controllers/contact.php">Contact</a>
+      <a class="hero__page__link" href="/">Home</a> |
+      <a class="hero__page__link hero__page__link-active" href="/contact">Contact</a>
     </div>
   </div>
 
